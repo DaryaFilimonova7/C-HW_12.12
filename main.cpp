@@ -2,7 +2,7 @@
 void swap(int *ptr1, int *ptr2)
 {
     int x;
-    x = *ptr1; // временная переменная
+    x = *ptr1; 
     *ptr1=*ptr2;
     *ptr2=x;
 }
